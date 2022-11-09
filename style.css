@@ -1,0 +1,84 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    text-align: center;
+}
+
+.copyright {
+    color: rgb(3, 41, 3);
+    font-family: Times, Times New Roman, Georgia, serif;
+}
+
+table {
+  font-weight: bold;
+  table-layout: auto;
+  text-align: center;
+  width: 80%;
+  border-collapse: collapse;
+  border: 3px solid grey;
+  margin: 1px 10%;
+  border-spacing: 0;
+}
+
+th {
+  padding: 1px;
+  border: 1px solid grey; 
+  background-color: rgb(182, 234, 217);
+}
+
+td {
+  padding: 1px;
+  background-color: rgb(254, 249, 186);
+  border: 1px solid grey; 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 12px;
+  font-family: Times, Times New Roman, Georgia, serif;
+  vertical-align: middle;
+}
+
+.tableCaption {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin: 5px 0;
+  text-align: center;
+}
+
+.tableHead {
+  background-color: rgb(182, 234, 217);
+  font-size: 1.1rem;
+}
+
+main {
+  display: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+}
+
+.task_box {
+  margin: 1px auto;
+  display: inline-block;
+  padding: 0;
+  border: 3px double black;
+  width: 95%;
+  background: rgba(97, 248, 233, 0.439);
+  justify-content: center;
+}
+
+.res_text {
+  color: rgb(3, 12, 73);
+  font-size: 0.9rem;
+  padding-left: 5px;
+}
+
